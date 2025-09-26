@@ -15,7 +15,8 @@ pd.set_option('display.max_columns', None)  # useful for testing to display full
 # tkinter set up
 root = Tk()
 root.title("Deribit Max Pain - Cryptarbitrage")
-root.iconbitmap('cryptarbitrage_icon_96px.ico')
+icon = PhotoImage(file='cryptarbitrage_icon_96px.png')
+root.iconphoto(True, icon)
 root.minsize(400, 200)
 
 # details frame
